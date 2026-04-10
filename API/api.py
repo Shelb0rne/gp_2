@@ -318,3 +318,4 @@ for i in tqdm(range(len(selenium_year_make_model))):
 selenium_df = pd.DataFrame(selenium_new_data)
 selenium_df.to_csv('selenium_final_data.csv', index=False)
 
+
